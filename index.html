@@ -273,6 +273,10 @@
                             <input type="text" id="name" name="name" required>
                         </div>
                         <div class="form-group">
+                            <label for="phone">Mobile Number</label>
+                            <input type="tel" id="phone" name="phone" required maxlength="10" pattern="[0-9]{10}">
+                        </div>
+                        <div class="form-group">
                             <label for="email">Email Address</label>
                             <input type="email" id="email" name="email" required>
                         </div>
@@ -280,8 +284,8 @@
                             <label for="course">Interested Course</label>
                             <select id="course" name="course" required>
                                 <option value="">Select a course</option>
-                                <option value="java-crash-course">Full Stack Development with AI</option>
-                                <option value="python-fundamentals">Data Structures & Algorithms with Java</option>
+                                <option value="full-stack-development">Full Stack Development with AI</option>
+                                <option value="data-structures">Data Structures & Algorithms with Java</option>
                                 <option value="other">Other / General Inquiry</option>
                             </select>
                         </div>
