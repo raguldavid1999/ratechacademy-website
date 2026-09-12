@@ -47,15 +47,16 @@
                     🚀 New Batch Starting Soon!
                 </div>
                 <h1 class="hero-title">
-                    <span>Free Java</span>
-                    <span class="gradient-text">Crash Course</span>
-                    <span class="hero-subtitle">Learn Java the Right Way!</span>
+                    <span>Fullstack Development</span>
+                    <span class="gradient-text">Master the Modern Web</span>
+                    <span class="hero-subtitle">Build Real-World Applications with AI</span>
                 </h1>
+
                 <p class="hero-description">
-                    Start your programming journey with our beginner-friendly course designed for everyone
+                    Learn frontend, backend, databases, APIs, deployment, and AI integration through practical, real-world projects.
                 </p>
                 <div class="hero-buttons">
-                    <a href="#contact"><button class="btn-primary">Enroll Now - It's Free!</button></a>
+                    <a href="#contact"><button class="btn-primary">Enroll Now</button></a>
                     <a href="#courses"><button class="btn-secondary">View All Courses</button></a>
                 </div>
                 <div class="hero-stats">
@@ -64,12 +65,12 @@
                         <div class="stat-label">Students Enrolled</div>
                     </div>
                     <div class="stat">
-                        <div class="stat-number">5+</div>
-                        <div class="stat-label">Batches Completed</div>
+                        <div class="stat-number">20+</div>
+                        <div class="stat-label">Technologies Covered</div>
                     </div>
                     <div class="stat">
                         <div class="stat-number">100%</div>
-                        <div class="stat-label">Mobile Friendly</div>
+                        <div class="stat-label">Practical Learning</div>
                     </div>
                 </div>
             </div>
@@ -107,7 +108,7 @@
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">🎓</div>
-                    <h3>5+ Batches Completed</h3>
+                    <h3>10+ Batches Completed</h3>
                     <p>Proven track record with successful student outcomes</p>
                 </div>
                 <div class="feature-card">
@@ -124,100 +125,54 @@
         <div class="container">
             <div class="section-header">
                 <span class="section-badge">Our Courses</span>
-                <h2 class="section-title">
-                    Choose Your
-                    <span class="gradient-text">Learning Path</span>
-                </h2>
+                <h2 class="section-title">Learn. Build. <span class="gradient-text">Get Job Ready.</span></h2>
                 <p class="section-description">
-                    From free courses to advanced programs, we have something for every learner at every stage.
+                    Choose the right path to strengthen your development and problem-solving skills.
                 </p>
             </div>
             <div class="courses-grid">
-                <div class="course-card popular">
-                    <div class="popular-badge">Most Popular</div>
+                <article class="course-card popular">
+                    <div class="popular-badge">Career-focused</div>
                     <div class="course-header">
-                        <span class="course-level">Beginner</span>
-                        <div class="course-price">Free</div>
+                        <div class="course-icon" aria-hidden="true">&lt;/&gt;</div>
+                        <span class="course-level">Full stack</span>
                     </div>
-                    <h3 class="course-title">Java Crash Course</h3>
-                    <p class="course-description">Master Java fundamentals with hands-on projects and real-world examples</p>
-                    <div class="course-meta">
-                        <span>📅 4 weeks</span>
-                        <span>👥 100+</span>
+                    <h3 class="course-title">Full Stack Development</h3>
+                    <p class="course-subtitle">Build Modern, Production-Ready Web Applications</p>
+                    <p class="course-description">Learn how to build complete web applications from frontend to backend, database, authentication, deployment, and AI-powered features.</p>
+                    <div class="course-topics"><span>HTML · CSS · JavaScript</span><span>React · Node.js · MongoDB</span><span>Docker · AWS · AI APIs</span></div>
+                    <div class="course-pricing"><del>₹10,000</del><strong>₹4,999</strong></div>
+                    <div class="course-actions">
+                        <button class="btn-secondary" type="button" onclick="openCourseDetails('full-stack')">View Course</button>
+                        <a href="#contact"><button class="btn-primary" type="button">Reserve Your Seat</button></a>
                     </div>
-                    <ul class="course-features">
-                        <li>✅ Java Basics & OOP Concepts</li>
-                        <li>✅ Data Structures & Algorithms</li>
-                        <li>✅ Project-based Learning</li>
-                        <li>✅ WhatsApp Support Group</li>
-                        <li>✅ Certificate of Completion</li>
-                    </ul>
-                    <a href="#contact"><button class="btn-primary">Enroll Now</button></a>
-                </div>
-                <div class="course-card">
+                </article>
+                <article class="course-card">
                     <div class="course-header">
-                        <span class="course-level">Beginner</span>
-                        <div class="course-price">₹99</div>
+                        <div class="course-icon" aria-hidden="true">DSA</div>
+                        <span class="course-level">Interview prep</span>
                     </div>
-                    <h3 class="course-title">Python Fundamentals</h3>
-                    <p class="course-description">Learn Python programming from scratch with practical applications and examples</p>
-                    <div class="course-meta">
-                        <span>📅 4 weeks</span>
-                        <span>👥 100+</span>
+                    <h3 class="course-title">Data Structures &amp; Algorithms</h3>
+                    <p class="course-subtitle">Master DSA with Java for Coding Interviews</p>
+                    <p class="course-description">Build strong problem-solving skills and learn the most important Data Structures and Algorithms using Java with practical coding and interview-oriented problems.</p>
+                    <div class="course-topics"><span>Java · OOP · Arrays</span><span>Trees · Graphs · HashMap</span><span>Searching · Sorting · Recursion</span></div>
+                    <div class="course-pricing"><del>₹8,000</del><strong>₹3,999</strong></div>
+                    <div class="course-actions">
+                        <button class="btn-secondary" type="button" onclick="openCourseDetails('dsa')">View Course</button>
+                        <a href="#contact"><button class="btn-primary" type="button">Reserve Your Seat</button></a>
                     </div>
-                    <ul class="course-features">
-                        <li>✅ Python Syntax & Basics</li>
-                        <li>✅ Data Types, Loops & Functions</li>
-                        <li>✅ Lists, Tuples, Dictionaries & Sets</li>
-                        <li>✅ Object-Oriented Programming (OOPs) in Python</li>
-                        <li>✅ Mini Projects</li>
-                    </ul>
-                    <a href="#contact"><button class="btn-primary">Enroll Now</button></a>
-                </div>
-                <!-- <div class="course-card">
-                    <div class="course-header">
-                        <span class="course-level">Intermediate</span>
-                        <div class="course-price">₹2,999</div>
-                    </div>
-                    <h3 class="course-title">Data Structures & Algorithms</h3>
-                    <p class="course-description">Deep dive into DSA concepts essential for technical interviews</p>
-                    <div class="course-meta">
-                        <span>📅 8 weeks</span>
-                        <span>👥 300+</span>
-                    </div>
-                    <ul class="course-features">
-                        <li>✅ Arrays, Linked Lists, Trees</li>
-                        <li>✅ Sorting & Searching Algorithms</li>
-                        <li>✅ Dynamic Programming</li>
-                        <li>✅ Interview Preparation</li>
-                        <li>✅ Coding Practice Sessions</li>
-                    </ul>
-                    <button class="btn-primary">Enroll Now</button>
-                </div> -->
-                <div class="course-card">
-                    <div class="course-header">
-                        <span class="course-level">Intermediate</span>
-                        <div class="course-price">₹499</div>
-                    </div>
-                    <h3 class="course-title">Full Stack Web Development</h3>
-                    <p class="course-description">Build modern web applications from frontend to backend</p>
-                    <div class="course-meta">
-                        <span>📅 12 weeks</span>
-                        <span>👥 100+</span>
-                    </div>
-                    <ul class="course-features">
-                        <li>✅ Angular/React.js & Node.js</li>
-                        <li>✅ MongoDB & Express.js</li>
-                        <li>✅ RESTful APIs</li>
-                        <li>✅ Deployment & Hosting</li>
-                        <li>✅ Portfolio Projects</li>
-                    </ul>
-                    <a href="#contact"><button class="btn-primary">Enroll Now</button></a>
-                </div>
-                
+                </article>
             </div>
         </div>
     </section>
+
+    <div class="course-modal" id="course-modal" role="dialog" aria-modal="true" aria-labelledby="modal-course-title" hidden>
+        <div class="course-modal-backdrop" onclick="closeCourseDetails()"></div>
+        <div class="course-modal-content">
+            <button class="course-modal-close" type="button" aria-label="Close course details" onclick="closeCourseDetails()">×</button>
+            <div id="course-modal-body"></div>
+        </div>
+    </div>
 
     <!-- Testimonials Section -->
     <section id="testimonials" class="testimonials">
@@ -325,10 +280,8 @@
                             <label for="course">Interested Course</label>
                             <select id="course" name="course" required>
                                 <option value="">Select a course</option>
-                                <option value="java-crash-course">Java Crash Course (Free)</option>
-                                <option value="python-fundamentals">Python Fundamentals</option>
-                                <!-- <option value="data-structures">Data Structures & Algorithms</option> -->
-                                <option value="full-stack">Full Stack Web Development</option>
+                                <option value="java-crash-course">Full Stack Development with AI</option>
+                                <option value="python-fundamentals">Data Structures & Algorithms with Java</option>
                                 <option value="other">Other / General Inquiry</option>
                             </select>
                         </div>
@@ -383,9 +336,8 @@
                     <div class="footer-column">
                         <h4>📚 Courses</h4>
                         <ul>
-                            <li><a href="#courses">Java Crash Course</a></li>
-                            <li><a href="#courses">Python Fundamentals</a></li>
-                            <li><a href="#courses">Full Stack Development</a></li>
+                            <li><a href="#courses">Full Stack Development with AI</a></li>
+                            <li><a href="#courses">Data Structures & Algorithms with Java</a></li>
                         </ul>
                     </div>
                     <div class="footer-column">
